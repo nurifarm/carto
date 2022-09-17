@@ -1,0 +1,4711 @@
+fileFormatVersion: 2
+guid: e787577a14f9f914b8418a1104b94cec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gura2_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1927
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402035f25888a9342b767e0e989eaaa2
+      internalID: -615943286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1927
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2728295f730077c44a509470e1dd0906
+      internalID: -134818233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1926
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f065cd5ce84754aac848954e6bed62
+      internalID: 895116421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1927
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09f93bf7e432e64abb8853b5262b4e8
+      internalID: 1562637050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1927
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae09776a3e047343990e85449ff38ec
+      internalID: 1891117667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1927
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b734017fd6f2de4d8ea329d637bb32d
+      internalID: 2102857193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1927
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014547be4b5166e40b67146a697bf831
+      internalID: -1107436606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1927
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173fbcfb100d4ca47b4d9f0a70966b13
+      internalID: 1788030456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_8
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1927
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25462bc375a3d4c40a3ddf406b04f7f7
+      internalID: -798999533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_9
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1927
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd1abb56a8f6ed42902b579a3f95bca
+      internalID: 1113999435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1926
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847337a3aac916d4aa11d2a3ddde0758
+      internalID: -1453155027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_11
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1926
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9207619193ad4b74cb5d0f37b2955c85
+      internalID: -513126613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_12
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1924
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de790dc7581928a44a315c711a63a017
+      internalID: 204396153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_13
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1926
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181fae2d0cd447e4eaae4a48daec7d38
+      internalID: 815726518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_14
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 1926
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe829577d7170b84eb4e81296b2d21a5
+      internalID: -2106559186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_15
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1927
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629f583e3ad059458d277b4529c6c4d
+      internalID: -1634897342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1799
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d5123a57a32f34796b812324f2364e
+      internalID: -1903513181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1799
+        width: 87
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df5f8be76d10a744842534bde4b5fe4
+      internalID: 1592047488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1799
+        width: 95
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e9e3491b7a3a64e93ae4c5dc40ab97
+      internalID: -229266481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_19
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1799
+        width: 83
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c0db4a3bd4d5b4b8bef5c1abf686e8
+      internalID: -1945547804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_20
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1799
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebed68475e84e0f4eae6a959ecd8fdeb
+      internalID: 632344571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_21
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1799
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22ed3a9229723549ae74290c59bf7c1
+      internalID: -200547511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_22
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1798
+        width: 95
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de33abaaca59bae45904e60abf2d2658
+      internalID: -66881377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_23
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1799
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d705912981478804db12f3fef3c048fc
+      internalID: -1992806129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_24
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1799
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8515175ee232548bec183ef20f9050
+      internalID: 1512171461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_25
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1799
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c8ddb2222f59c44a3ff5141096a898
+      internalID: -915626580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_26
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1799
+        width: 95
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b9d8b482e2e6d4eb5ab6cd902f4ecd
+      internalID: 306149920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_27
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1799
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908367e754577b4e98c2937a98264a7
+      internalID: 742903555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1675
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86944a7909ea178409b2ddf085660346
+      internalID: -157127664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1677
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be2a38974e2cd04ca6a96849da3bea3
+      internalID: 1522862710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1689
+        width: 102
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033816c60dd93a54082d6d9d083aa572
+      internalID: -281000544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1683
+        width: 109
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf885ad50d006646804815ec650b286
+      internalID: -1814952724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_32
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1670
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa38f6d9dc4f8b4e8c418e27b07f1a7
+      internalID: 121387641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_33
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1673
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4d945294cd0cc49815da7bf0a87e63
+      internalID: 389760295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_34
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1669
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1aca566a8eaa940905e8d9201a9619
+      internalID: -206618743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_35
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1671
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f8c350dbc4dd8438bb25ad58945ce9
+      internalID: -1950273194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_36
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1671
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2bf65fbb5992044b3335498b7e75db
+      internalID: 331427512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_37
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1671
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dda33dc5bb4c14587476ee8b34cfe5
+      internalID: 970355295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_38
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1671
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b86fcc5a50bc040b0cbe66ddc4e7d4
+      internalID: 1108206995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_39
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1671
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50983af69fac7ab42b2bbbf0d76aa4d5
+      internalID: 285094943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_40
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1320
+        width: 405
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d90cde01d4fae49a5f31e2841bf7f5
+      internalID: -228929366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_41
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1539
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234ab7880b49c9647aa1fd3f6e3637b1
+      internalID: 881635383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_42
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1541
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82ce1425cdfc1a46a9bd5b479eb6a56
+      internalID: 2007215018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_43
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1543
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d92dc75d1984f4a90984acf59cda08
+      internalID: 1379640174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_44
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1543
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151b0278ea3c34b4781b5434d6e6e1f1
+      internalID: 134663741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_45
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1543
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97812880087c275498c1a1a7baebff11
+      internalID: -1098118557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_46
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1542
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d7b0dc3de6dc34dbe3014604347082
+      internalID: 15078136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_47
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1543
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e683d9e2d89dd4fad036f109452d34
+      internalID: 859852627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_48
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1543
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a832642a5dbedf745a4231fe634570b3
+      internalID: 896775744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_49
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1543
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f600d92348cc964383ad7008fb5911d
+      internalID: 914169492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_50
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1543
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c439e602ef082d4790cb804d17b6069
+      internalID: -100594476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_51
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1544
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86335115a343a8744a27f1c8c090263d
+      internalID: 77158810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_52
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1544
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cee7a436886a3428f527c56f62f931
+      internalID: -1450943023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1415
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092b1ca5cbda07849a01bbdf17c9b236
+      internalID: 32103584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_54
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1414
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cade20d64f19441b7e99d5d807dc4f
+      internalID: -183681393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_55
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1413
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee96b33662de359428202389a2f3df61
+      internalID: 380766560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_56
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1416
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c98e6b3752c74d9a98ff579c10dde
+      internalID: 1383546506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1415
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1332b7ceb5f5fe345835236d64fdade2
+      internalID: -1702851031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_58
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1414
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7ed0cfd689d24a87b4cf54f4978e6
+      internalID: 10774314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_59
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1414
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d0db1da1dfef4da197fee3ce8bc3a
+      internalID: -1222302038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_60
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1414
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b647aa27619462943838864d017cd302
+      internalID: -1140946562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_61
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1415
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714ae2133f3f45440bdacc36a20d775f
+      internalID: -317144318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_62
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1414
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a565af78b794859419bca5daef45ca10
+      internalID: 458874122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_63
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1415
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61082c71019123479a0414fe82409a8
+      internalID: 384896770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_64
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1287
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae12d0bb1a846340b686ee0b8ce69b5
+      internalID: -1940108664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_65
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1286
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e055de7d5747d8419ccec55a829514c
+      internalID: -774537241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_66
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1286
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff159399d1b8a24d9fc48348c6374a1
+      internalID: 528825311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_67
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1286
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9334babd7f45954b87cb9bb08abff9f
+      internalID: -1544425436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_68
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1286
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5010117b978533f4a8e1bf3c7de52442
+      internalID: -856138115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_69
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1287
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c96a02500e6fd4d9f1d49106aa08fa
+      internalID: 845893673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_70
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1287
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6dfa527a7f78348a0da1320a1c4904
+      internalID: -844510050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_71
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1287
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5939befffba868f47a5e46ca853c447a
+      internalID: 943919205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_72
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1286
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e6c077c98449142bb7ee13c66853d3
+      internalID: -1773964975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_73
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1287
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e734aace69bab4e8208cd9d1955720
+      internalID: 136595502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_74
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1287
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe97b609014509408f418eee950ee41
+      internalID: -2087137391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_75
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1287
+        width: 80
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf69d99822de014c916b24036b1662b
+      internalID: 329757060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_76
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1166
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ec8644215c31345b414d729a03187c
+      internalID: -559276558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_77
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1164
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f8ea6f569abd244aabf27c5b590c7c
+      internalID: -1417404696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_78
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1167
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc64b92239591e64a8550f012e695b30
+      internalID: 859976204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_79
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1168
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a1f06b903f5b94a81e586ede0c010f
+      internalID: -1754585179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_80
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1166
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b5f30c0b69f03449254a666c1638fa
+      internalID: -494132841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_81
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1171
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df6ebd0994bf74b8fa293eee2c030b
+      internalID: -682748799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_82
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1159
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcb460fcb032284693d443e06766aa0
+      internalID: 1632792942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_83
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1159
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ef87200afc8924d9bdb06f85783b26
+      internalID: 1887680684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_84
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1159
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f68ee65115fbc4b9f43ffdad4d4f53
+      internalID: 123536366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_85
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1159
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a537c27555ebe64e9d36c283b903ebf
+      internalID: 564120791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_86
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1159
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6c3ca134966e64495cb0e75b5d89dd
+      internalID: -1822469621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_87
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1159
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67668993f5e49a439c145346d736f36
+      internalID: -1522636858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_88
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1036
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe174c5bc28d444b8df5c4f013b0692
+      internalID: 467710205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_89
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1036
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cb1b3b5976e43489c40d37f2317a78
+      internalID: -931592475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_90
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1036
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8984dfec9346dff4c82abefbd8649863
+      internalID: -799980672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_91
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1036
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed13bc9bb11ce4a934c627943b5c70
+      internalID: -564869362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_92
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1036
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7538a47d08ed2f4b94569bafdaf2004
+      internalID: -1474459689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_93
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1036
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd64637afa80024d91613a260cdf427
+      internalID: 2068921704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_94
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1036
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f9bedd124032d44b1e8fa02690269b
+      internalID: -1129566726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_95
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1036
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d48c8c0d613944badb288763dd540c
+      internalID: 973519143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_96
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1036
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258985e46f5ecfb4cbaff7e81b0cb079
+      internalID: -652320543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_97
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1038
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f94886a9220f9840ac816624485c811
+      internalID: -347309595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_98
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1031
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1de798c1e10a2749991b4b5e6e858d8
+      internalID: 316442563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_99
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1031
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666bc5868c82a0746b337f05ca17e2c6
+      internalID: -2146757228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_100
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1031
+        width: 95
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b59effafa560a646a08a9b700b56718
+      internalID: 562069258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_101
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1031
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cd36a528667834e92b90c8c5673516
+      internalID: 1932103558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_102
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1031
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0341be93f2e2c994b8ed9540ce5600dd
+      internalID: 385610260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_103
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 902
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603ad62f80659c84a925a78287eb25b2
+      internalID: 1504565628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_104
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 903
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a4d457931646b43a6f76f2fe20ee5a
+      internalID: 1155925617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_105
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 903
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77121f9468f9f84297f4dda8525b7f0
+      internalID: -343355433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_106
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 903
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4ddd8d631b0df4b8308c2283fd09dd
+      internalID: -1320192371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_107
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 903
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcab64f13d0c0043a1ad0ee6f6f0c7d
+      internalID: -851342114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_108
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 902
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c78b06bbd5294fb8a5a500df88291
+      internalID: -487767849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_109
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 903
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3a27af1d487d748844fb02776dbe81
+      internalID: 2128810689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_110
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 909
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acd17297cf4ae041b039ce8ed0fef58
+      internalID: 950629972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_111
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 909
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c0bc87f961c8341ad1aa08e805dd54
+      internalID: 353337511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_112
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 910
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c982e0265565245913a270eab10ca3
+      internalID: 900279343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_113
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 910
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a733a8591dec8124ebf20f801a22d65b
+      internalID: 363312452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_114
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 910
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65ef4526f18b8f4cb6b63336925be73
+      internalID: 1354493845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_115
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 910
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847c3eed06d81b241a50cc5763728676
+      internalID: -153518269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_116
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 910
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a24053b84d718b42a16dc9d3f6c539e
+      internalID: -1512878831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_117
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 910
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd78a209e603bfd49b229fee620aa1de
+      internalID: 558934802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_118
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 775
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f24f01a0f43b344aadda2fba9f77c18
+      internalID: -528877659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_119
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 774
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eadd1d219bc8d4494f8cdbe0ebd992
+      internalID: 1406878579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_120
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 773
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168ffb89855df224494bb467b624089b
+      internalID: 1008542346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_121
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 775
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be180d969b5f7d64da56ad36bd17c08f
+      internalID: 21609868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_122
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 776
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b88121956c09748bbba78e309fbbb8
+      internalID: -877082421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_123
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 777
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088bd941aec53c40990cd7c9115e288
+      internalID: 1854310520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_124
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 773
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb37800c5b6a8e4459a14f7fc555c6bc
+      internalID: 1512347942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_125
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 775
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a125e1c6177f54593f35b8ecb503e0
+      internalID: -765172342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_126
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 775
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef73ded7278e2d54a9a37d644581c7a8
+      internalID: -1213471278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_127
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 776
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6925231c90ac0ba42a36acd5852e5867
+      internalID: -296615123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_128
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 777
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7f55ace8d99524f9b78e357b1b44d7
+      internalID: 2032364403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_129
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 773
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628649d83a192ef4ebac4bb4a3a70c5b
+      internalID: -267035823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_130
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 767
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ed11116590f3c42a2117d87e23f9fb
+      internalID: -2008378196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_131
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 767
+        width: 83
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cbafb566eb48740a1490b6115d1f99
+      internalID: -1986003848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_132
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 767
+        width: 83
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec4614d1a7313b4381f7748b88aee1d
+      internalID: 1290009085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_133
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 767
+        width: 83
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2adf89a14374044fa58db33dcdb1f90
+      internalID: -1429272362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_134
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b978293e877799146abfc713b7c2f156
+      internalID: -2005941822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_135
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a127bbaa42c58498cac733a2e24b6f
+      internalID: -1248429288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_136
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9c40d0180da2e43a341062d47bb362
+      internalID: -9540137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_137
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f86869b9e457344b1191ac73949209
+      internalID: -1046185225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_138
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054d5b150af57f642afa15e8ddeffc1f
+      internalID: -1574476297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_139
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532ce71b7b785e4488b8e4c6e4a744df
+      internalID: -5331008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_140
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a2312d3e175574092085b808a32354
+      internalID: -932966298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_141
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 654
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672ad5869f9ca954285647b54d583d68
+      internalID: -1099855407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_142
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 653
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4f372fb8b5a4d478b96a9d84d8b817
+      internalID: -1495352995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_143
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 655
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7367d41685c4e7e4c97792e9950bf2be
+      internalID: -882034890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_144
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 654
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3c120557d69ab4881de47948477049
+      internalID: 384280035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_145
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ace060194d8de428469bc523a12f3c
+      internalID: 140744509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_146
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f6866c6f01a764c8192371dca16583
+      internalID: -1027762329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_147
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27a8cbadf645344a965fbea30e628c1
+      internalID: -1070891409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_148
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbc504982a83f147a62ec2db3c8818d
+      internalID: -1710955078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_149
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 650
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1874cba0b5cf84a96e5aa40e2650b7
+      internalID: 1352231745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_150
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 536
+        width: 114
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931cfeacabbc93c41ac4deabe13eee5e
+      internalID: -235760428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_151
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 516
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f210d2ad4e5f9fd4da5be7cfaeae052b
+      internalID: 1052648212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_152
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 520
+        width: 92
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de8ac96bc92284f9625b0557644ec2
+      internalID: 1750898976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_153
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 526
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68641871a28deb7489494c359fd7feeb
+      internalID: -658395803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_154
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 544
+        width: 108
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a467976dad0079049903b80a883d49ab
+      internalID: -1275344603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_155
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 544
+        width: 102
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8707f6282d4ceaf48a87a26c1c9d52b5
+      internalID: 1290021923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_156
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 539
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8a863bf42e8f478c9fe6d24121ed5
+      internalID: 482981321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_157
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 535
+        width: 102
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd486c450cd6f124185c6455c79c4d7c
+      internalID: 1621466114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_158
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 532
+        width: 108
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023996722bb82664ab8960aaf4675ae5
+      internalID: 2090063967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_159
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 531
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ff5ba7f7e446d4d8bc3c2cdf6301fc
+      internalID: 1823821847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_160
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 520
+        width: 105
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c53014b69d844b99d3b6cf3c1da3e
+      internalID: -56502567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_161
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 384
+        width: 26
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfe3348f649540428436a2014ac756b
+      internalID: -2041655012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_162
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 431
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a8dcf57c27dcb48aed1d24f01c0d22
+      internalID: 138079027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_163
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 417
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149ad4aec061a644faf2f297b72eb0c4
+      internalID: 1013917953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_164
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 401
+        width: 66
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba682acaee93b45844188079979f11
+      internalID: 201875394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_165
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 389
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187fac6ec7aa5aa499eb568d1e545b6a
+      internalID: -441866827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_166
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 390
+        width: 31
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c160cf670593448a7e1db60248a948
+      internalID: 1191286602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_167
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 390
+        width: 26
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51954584209139d46beda883da4e3b09
+      internalID: 302744928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_168
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 418
+        width: 26
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b16e68f2d42b6943b9d5d95935cb5fe
+      internalID: 1097083041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_169
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 446
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bd695f420219d4aa3249557f78633b
+      internalID: -1542969960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_170
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 471
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba91c27f1c847cc4294cbfdfcdf7d603
+      internalID: 1218540648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_171
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 394
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d510147d5cf68f4cb133e4c8feb3026
+      internalID: -1379039948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_172
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 390
+        width: 119
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d295f15fd9be9e54aa5246dc799774b3
+      internalID: -624588159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_173
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 403
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90476846989f4e64ba0372d3ffc3cc9a
+      internalID: -363355452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_174
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 423
+        width: 119
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3f4e6bd95c81a4c8b24aadb099fa9b
+      internalID: -1856727189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_175
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 423
+        width: 120
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af78b9616ab7b9342a1acb613655cdbc
+      internalID: -1302529267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_176
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 428
+        width: 120
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328fa08a38b0ed84c95e78ca00422230
+      internalID: 657151560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_177
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 299
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51363a28535d3d74ca525d507db88840
+      internalID: -1084063153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_178
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 314
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3336b9385168e054e85b776b0d2e56ac
+      internalID: -221335212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_179
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 299
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84d9fa552270f741aad19d6333828ee
+      internalID: 582740778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_180
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 318
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cb208a53d40a54bab9824b4bd89f38
+      internalID: -43824956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_181
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 297
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8a88d9867472a40ad842bc0b4b92dd
+      internalID: -1247685672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_182
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 318
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff2499bde546d547a9c987a9b70c9df
+      internalID: -64051056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_183
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 294
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0e4b8843f829843beec2268751ce05
+      internalID: 805129567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_184
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 318
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc98f79e8c6504a8ca4ce6f759f42d
+      internalID: -480013046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_185
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 292
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eb7c1c57132f240a1c6ddc96e94ada
+      internalID: 2072048041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_186
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 319
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728ef3a0ae31bf84e830437db471dcd9
+      internalID: -183599108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_187
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 295
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f0c86feec1c3547a43dac700009a17
+      internalID: -359135641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_188
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801279ac16ea56b4d9e488fa56a61f21
+      internalID: -1487538899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_189
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 292
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4dde338a79365478c296f8621f4f24
+      internalID: 1937528693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_190
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 314
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8e2d546d91ae34ca69ac6a6219d5ab
+      internalID: 1425875892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_191
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 293
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c62a1c1febcc64bb26be205e4f469c
+      internalID: -657119573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_192
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 310
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e4ae0e117f9054e951be8fb20ec4ad
+      internalID: 1144093869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_193
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 293
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e99b971f20666d4ea428899d63136ef
+      internalID: 1120164559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_194
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 308
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bd76c191ee40e4b8104930829819bc
+      internalID: -1289213174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_195
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 293
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cb6f57930214944b4603d1cc01b779
+      internalID: -1522376897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_196
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 307
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5980c789a8725364782b797b52fc064f
+      internalID: -1909678115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_197
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 293
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a621acf69c227b14d8b2dcc4f5b2fe6b
+      internalID: 1179925093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_198
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 294
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263974524fdac4940a3601a29e2eee74
+      internalID: 1274296311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_199
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 134
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61efcb7660257744298eedcc2e3275bb
+      internalID: -1831503552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_200
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 142
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0aca39c3a6e3d44b93811f31c32442
+      internalID: -1080868937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_201
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 134
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aaa398bb89f34478489e196836f4aa
+      internalID: -1502748272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_202
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 135
+        width: 104
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64032fb29c0d15444b6d3b40449e1312
+      internalID: 31511079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_203
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 135
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e582e2d9a98d55b46b7a9ce9d597af2f
+      internalID: 1723829519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_204
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 134
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c14cd6420de06849b5a8becec98c703
+      internalID: 826320444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_205
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 135
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bcafb65e8f07747b4b1ec33fd4b161
+      internalID: -633307951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_206
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 135
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa185a0d93db79b419a7ad81b8ff33bf
+      internalID: -1865691651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gura2_207
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 135
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f356069626c707149a2c9d481085d586
+      internalID: 68880165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gura2_175: -1302529267
+      Gura2_35: -1950273194
+      Gura2_198: 1274296311
+      Gura2_29: 1522862710
+      Gura2_68: -856138115
+      Gura2_171: -1379039948
+      Gura2_177: -1084063153
+      Gura2_99: -2146757228
+      Gura2_39: 285094943
+      Gura2_204: 826320444
+      Gura2_168: 1097083041
+      Gura2_13: 815726518
+      Gura2_178: -221335212
+      Gura2_172: -624588159
+      Gura2_85: 564120791
+      Gura2_33: 389760295
+      Gura2_11: -513126613
+      Gura2_78: 859976204
+      Gura2_64: -1940108664
+      Gura2_163: 1013917953
+      Gura2_90: -799980672
+      Gura2_151: 1052648212
+      Gura2_82: 1632792942
+      Gura2_87: -1522636858
+      Gura2_205: -633307951
+      Gura2_128: 2032364403
+      Gura2_152: 1750898976
+      Gura2_154: -1275344603
+      Gura2_38: 1108206995
+      Gura2_84: 123536366
+      Gura2_20: 632344571
+      Gura2_125: -765172342
+      Gura2_150: -235760428
+      Gura2_23: -1992806129
+      Gura2_159: 1823821847
+      Gura2_27: 742903555
+      Gura2_114: 1354493845
+      Gura2_111: 353337511
+      Gura2_10: -1453155027
+      Gura2_160: -56502567
+      Gura2_50: -100594476
+      Gura2_146: -1027762329
+      Gura2_156: 482981321
+      Gura2_26: 306149920
+      Gura2_74: -2087137391
+      Gura2_88: 467710205
+      Gura2_196: -1909678115
+      Gura2_5: 2102857193
+      Gura2_112: 900279343
+      Gura2_71: 943919205
+      Gura2_173: -363355452
+      Gura2_174: -1856727189
+      Gura2_201: -1502748272
+      Gura2_91: -564869362
+      Gura2_65: -774537241
+      Gura2_179: 582740778
+      Gura2_132: 1290009085
+      Gura2_118: -528877659
+      Gura2_60: -1140946562
+      Gura2_34: -206618743
+      Gura2_155: 1290021923
+      Gura2_70: -844510050
+      Gura2_183: 805129567
+      Gura2_188: -1487538899
+      Gura2_22: -66881377
+      Gura2_127: -296615123
+      Gura2_130: -2008378196
+      Gura2_57: -1702851031
+      Gura2_49: 914169492
+      Gura2_0: -615943286
+      Gura2_145: 140744509
+      Gura2_143: -882034890
+      Gura2_165: -441866827
+      Gura2_139: -5331008
+      Gura2_126: -1213471278
+      Gura2_42: 2007215018
+      Gura2_176: 657151560
+      Gura2_108: -487767849
+      Gura2_117: 558934802
+      Gura2_16: -1903513181
+      Gura2_66: 528825311
+      Gura2_206: -1865691651
+      Gura2_129: -267035823
+      Gura2_157: 1621466114
+      Gura2_158: 2090063967
+      Gura2_14: -2106559186
+      Gura2_142: -1495352995
+      Gura2_200: -1080868937
+      Gura2_17: 1592047488
+      Gura2_121: 21609868
+      Gura2_110: 950629972
+      Gura2_48: 896775744
+      Gura2_184: -480013046
+      Gura2_15: -1634897342
+      Gura2_193: 1120164559
+      Gura2_102: 385610260
+      Gura2_170: 1218540648
+      Gura2_137: -1046185225
+      Gura2_81: -682748799
+      Gura2_8: -798999533
+      Gura2_80: -494132841
+      Gura2_104: 1155925617
+      Gura2_148: -1710955078
+      Gura2_98: 316442563
+      Gura2_169: -1542969960
+      Gura2_21: -200547511
+      Gura2_52: -1450943023
+      Gura2_83: 1887680684
+      Gura2_136: -9540137
+      Gura2_116: -1512878831
+      Gura2_4: 1891117667
+      Gura2_131: -1986003848
+      Gura2_3: 1562637050
+      Gura2_96: -652320543
+      Gura2_79: -1754585179
+      Gura2_122: -877082421
+      Gura2_138: -1574476297
+      Gura2_56: 1383546506
+      Gura2_25: -915626580
+      Gura2_7: 1788030456
+      Gura2_192: 1144093869
+      Gura2_153: -658395803
+      Gura2_189: 1937528693
+      Gura2_30: -281000544
+      Gura2_72: -1773964975
+      Gura2_101: 1932103558
+      Gura2_207: 68880165
+      Gura2_197: 1179925093
+      Gura2_32: 121387641
+      Gura2_120: 1008542346
+      Gura2_46: 15078136
+      Gura2_105: -343355433
+      Gura2_141: -1099855407
+      Gura2_47: 859852627
+      Gura2_103: 1504565628
+      Gura2_147: -1070891409
+      Gura2_203: 1723829519
+      Gura2_134: -2005941822
+      Gura2_1: -134818233
+      Gura2_194: -1289213174
+      Gura2_93: 2068921704
+      Gura2_61: -317144318
+      Gura2_167: 302744928
+      Gura2_123: 1854310520
+      Gura2_109: 2128810689
+      Gura2_133: -1429272362
+      Gura2_140: -932966298
+      Gura2_19: -1945547804
+      Gura2_58: 10774314
+      Gura2_37: 970355295
+      Gura2_97: -347309595
+      Gura2_67: -1544425436
+      Gura2_190: 1425875892
+      Gura2_54: -183681393
+      Gura2_107: -851342114
+      Gura2_18: -229266481
+      Gura2_9: 1113999435
+      Gura2_100: 562069258
+      Gura2_59: -1222302038
+      Gura2_191: -657119573
+      Gura2_31: -1814952724
+      Gura2_45: -1098118557
+      Gura2_186: -183599108
+      Gura2_86: -1822469621
+      Gura2_36: 331427512
+      Gura2_77: -1417404696
+      Gura2_166: 1191286602
+      Gura2_115: -153518269
+      Gura2_76: -559276558
+      Gura2_119: 1406878579
+      Gura2_2: 895116421
+      Gura2_63: 384896770
+      Gura2_40: -228929366
+      Gura2_182: -64051056
+      Gura2_95: 973519143
+      Gura2_161: -2041655012
+      Gura2_164: 201875394
+      Gura2_41: 881635383
+      Gura2_92: -1474459689
+      Gura2_181: -1247685672
+      Gura2_106: -1320192371
+      Gura2_73: 136595502
+      Gura2_187: -359135641
+      Gura2_51: 77158810
+      Gura2_195: -1522376897
+      Gura2_199: -1831503552
+      Gura2_144: 384280035
+      Gura2_202: 31511079
+      Gura2_24: 1512171461
+      Gura2_28: -157127664
+      Gura2_94: -1129566726
+      Gura2_6: -1107436606
+      Gura2_12: 204396153
+      Gura2_43: 1379640174
+      Gura2_75: 329757060
+      Gura2_53: 32103584
+      Gura2_62: 458874122
+      Gura2_69: 845893673
+      Gura2_180: -43824956
+      Gura2_124: 1512347942
+      Gura2_185: 2072048041
+      Gura2_135: -1248429288
+      Gura2_162: 138079027
+      Gura2_55: 380766560
+      Gura2_89: -931592475
+      Gura2_149: 1352231745
+      Gura2_44: 134663741
+      Gura2_113: 363312452
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

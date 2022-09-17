@@ -3,38 +3,72 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer))]
 public class PlayerAction : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
+    private Animator anim;
 
-    [SerializeField, Range(0f, 100f)]
-    private float moveSpeed = 5f;
+    private Vector2 moveDir;
+    private bool isMoving = false;
 
-    float h;
-    float v;
+    //[SerializeField, Range(0.0f, 100.0f)]
+    private float moveSpeed = 2.0f;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         if (!TryGetComponent(out rb))
+        {
             rb = gameObject.AddComponent<Rigidbody2D>();
+        }
 
+        if (!TryGetComponent(out sr))
+        {
+            sr = gameObject.AddComponent<SpriteRenderer>();
+        }
+
+        if (!TryGetComponent(out anim))
+        {
+            anim = gameObject.AddComponent<Animator>();
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         // == MOVE ==
-        h = Input.GetAxisRaw("Horizontal");
-        v = Input.GetAxisRaw("Vertical");
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+
+        isMoving = (h != 0f || v != 0f);
+
+        if (isMoving)
+        {
+            moveDir = transform.up * v + transform.right * h;
+            moveDir.Normalize();
+
+            // Direction Sprite
+            sr.flipX = Input.GetAxisRaw("Horizontal") == -1;
+
+        }
+
     }
     
     void FixedUpdate() 
     {
-        transform.Translate(new Vector2(h, v) * Time.fixedDeltaTime * moveSpeed);
-        rb.velocity = new Vector2(h, v);
+        if (isMoving)
+        {
+            Vector2 moveOffset = moveDir * (moveSpeed * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + moveOffset);
+
+            // Moving Animation
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            // idle Animation
+            anim.SetBool("isMoving", false);
+        }
 
     }
 }
