@@ -52,6 +52,17 @@ public class PlayerAction : MonoBehaviour
 
         }
 
+		if(Input.GetKeyDown(KeyCode.Space))
+		{
+			if(PopupManager.Instance.IsActive("DialoguePopup"))
+			{
+				PopupManager.Instance.Hide();
+			} else
+			{
+				PopupManager.Instance.Show("DialoguePopup");
+			}
+		}
+
     }
     
     void FixedUpdate() 
