@@ -8,17 +8,20 @@ namespace Cainos.PixelArtTopDown_Basic
     public class CameraFollow : MonoBehaviour
     {
         public Transform target;
+
         public float lerpSpeed = 1.0f;
+        public float height = -10.0f;
 
         private Vector3 offset;
-
         private Vector3 targetPos;
 
         private void Start()
         {
             if (target == null) return;
 
-            offset = transform.position - target.position;
+            // Camera Initial Position
+            transform.position = target.position;
+            offset = new Vector3(0.0f, 0.0f, height);
         }
 
         private void Update()
