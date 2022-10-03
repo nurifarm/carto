@@ -6,15 +6,19 @@ using System;
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer))]
 public class PlayerAction : MonoBehaviour
 {
+
+    // *****************************************************
+    // * variable
+    // *****************************************************
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
-
+    
     private Vector2 moveDir;
     private bool isMoving = false;
 
     //[SerializeField, Range(0.0f, 100.0f)]
-    private float moveSpeed = 2.0f;
+    private float moveSpeed = 3.0f;
 
     void Start()
     {
@@ -32,6 +36,7 @@ public class PlayerAction : MonoBehaviour
         {
             anim = gameObject.AddComponent<Animator>();
         }
+        
     }
 
     void Update()
