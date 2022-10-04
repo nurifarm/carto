@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer))]
-public class AngryPig : MonoBehaviour
+public class Chameleon : MonoBehaviour
 {
     // *****************************************************
     // * variable
@@ -12,7 +11,7 @@ public class AngryPig : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
-    
+
     private Vector3 initialPos;
     private bool isTargetInRange = false;
     private bool isTargetInAttackRange = false;
@@ -129,6 +128,5 @@ public class AngryPig : MonoBehaviour
         //애니메이션 완료 후 실행되는 부분
         isInAction = false;
     }
-
 
 }

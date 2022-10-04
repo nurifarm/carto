@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 738341905792452031}
   - component: {fileID: -6999514445060975532}
   - component: {fileID: -7152354308526965960}
-  - component: {fileID: 7170130228334567696}
   - component: {fileID: 1600801333853611673}
   - component: {fileID: -7100497935042138554}
+  - component: {fileID: -8682425092006951435}
   m_Layer: 0
-  m_Name: AngryPig
+  m_Name: Chameleon
   m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: -1869315837
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 8fc4ec74d7766084baa2809546ac8ea1, type: 2}
+  m_Sprite: {fileID: 21300000, guid: 00323ae2f3980634cabe6b9a387f190f, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.36, y: 0.3}
+  m_Size: {x: 0.33, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 5497066610288863363}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 78a90e4e3ff1d7149898225c6417b9c3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 288267d06fe690643b9ea41ede118dad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,18 +108,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7170130228334567696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5497066610288863363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a85c6f471496840b7b4bf05ca1d5ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1600801333853611673
 Rigidbody2D:
   serializedVersion: 4
@@ -158,8 +146,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.36, y: 0.3}
-    newSize: {x: 0.36, y: 0.3}
+    oldSize: {x: 0.33, y: 0.31}
+    newSize: {x: 0.33, y: 0.31}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -167,3 +155,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.27}
   m_EdgeRadius: 0
+--- !u!114 &-8682425092006951435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5497066610288863363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce5dcac4278222409d0ba0a5f9e8f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
