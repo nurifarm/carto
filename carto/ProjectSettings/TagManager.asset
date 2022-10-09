@@ -56,9 +56,6 @@ TagManager:
   - name: Background
     uniqueID: 3227045249
     locked: 0
-  - name: New Layer 5
-    uniqueID: 168585063
-    locked: 0
-  - name: New Layer 6
+  - name: Object
     uniqueID: 4219122169
     locked: 0
