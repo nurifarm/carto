@@ -28,7 +28,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
             Debug.Log("ajaxcompleted");
         }
 
-        GWSManager.parameter(parameters).done(ajaxCompleted).excute();
+        GWSManager.Instance.parameter(parameters).done(ajaxCompleted).excute();
         Debug.Log("click");
     }
     

@@ -2,24 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PopupManager : MonoBehaviour
+public class PopupManager : UniSingleton<PopupManager>
 {
-	private static PopupManager _instance;
-	public static PopupManager Instance
-	{
-		get
-		{
-			if(_instance == null)
-			{
-				// TODO: 게임 오브젝트와 매니저 분리
-				var go = new GameObject("PopupRoot");
-				_instance = go.AddComponent<PopupManager>();
-			}
-
-			return _instance;
-		}
-	}
-
 	Dictionary<string, PopupBase> popups = new Dictionary<string, PopupBase>();
 
 	Stack<PopupBase> openPopups = new Stack<PopupBase>();

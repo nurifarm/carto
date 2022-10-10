@@ -4,30 +4,12 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 
-public class GWSManager : MonoBehaviour
+public class GWSManager : Singleton<GWSManager>
 {
-    public static GWSManager instance = null;
-
     public Dictionary<string, string> _params = null;
     public delegate void Callback();
     public Callback _ajaxCompleted = null;
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            if (instance != this)
-            {
-                Destroy(this.gameObject);
-            }
-        }
-    }
-    
     public GWSManager parameter(Dictionary<string, string> p)
     {
         _params = p;
@@ -40,7 +22,7 @@ public class GWSManager : MonoBehaviour
         return this;
     }
 
-    void excute()
+    public void excute()
     {
         string serviceId = "battle.stage";
         string commandId = "retrieveDetailList";
