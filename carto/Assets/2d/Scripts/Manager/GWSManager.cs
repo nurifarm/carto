@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-
+// 
 public class GWSManager : Singleton<GWSManager>
 {
     public Dictionary<string, string> _params = null;
