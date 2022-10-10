@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class BattleSceneGameManager : MonoBehaviour
 {
+    // *****************************************************
+    // * 게임 오브젝트
+    // *****************************************************
+    // stage detail 정보
+    private List<StageDetail> stageDetailList;
 
+    // *****************************************************
+    // * BattleSceneGameManager 싱글톤 인스턴스
+    // *****************************************************
     public static BattleSceneGameManager sharedInstance = null;
 
-    void Awake() {
+    void Awake() 
+    {
         if (sharedInstance != null &&  sharedInstance != this)
         {
             Destroy(gameObject);
@@ -28,9 +37,9 @@ public class BattleSceneGameManager : MonoBehaviour
         // TODO
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
+
 }

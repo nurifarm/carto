@@ -8,16 +8,17 @@ public class PlayerAction : MonoBehaviour
 {
 
     // *****************************************************
-    // * variable
+    // * Component
     // *****************************************************
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
-    
+
+    // *****************************************************
+    // * Variable
+    // *****************************************************
     private Vector2 moveDir;
     private bool isMoving = false;
-
-    //[SerializeField, Range(0.0f, 100.0f)]
     private float moveSpeed = 3.0f;
 
     void Start()
