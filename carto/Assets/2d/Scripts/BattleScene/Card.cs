@@ -10,7 +10,18 @@ public class Card : MonoBehaviour, IPointerClickHandler
 
     void Start() 
     {
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
         
+        string serviceId = "battle.stage";
+        string commandId = "retrieveDetailList";
+        string stageNo = "1";
+
+        parameters.Add("serviceId", serviceId);
+        parameters.Add("commandId", commandId);
+        parameters.Add("stageNo", stageNo);
+
+
+        StartCoroutine(GWSClient.Instance.Request(parameters));
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -21,14 +32,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
     void ClickCard()
     {
 
-        Dictionary<string, string> parameters = new Dictionary<string, string>();
-
-        void ajaxCompleted()
-        {
-            Debug.Log("ajaxcompleted");
-        }
-
-        GWSManager.Instance.parameter(parameters).done(ajaxCompleted).excute();
+        
         Debug.Log("click");
     }
     
