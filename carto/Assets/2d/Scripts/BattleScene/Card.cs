@@ -32,7 +32,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
         parameters.Add("stageNo", stageNo);
 
 
-        StartCoroutine(GWSClient.Instance.Request(parameters));
+        GWSClient.Instance.Request(parameters);
         Debug.Log("click");
     }
     

@@ -12,7 +12,12 @@ public class GWSClient : UniSingleton<GWSClient>
     // 개발 서버
     static string URL = "http://183.91.201.152:8088/app/1.0/service/ajax";
 
-    public IEnumerator Request(Dictionary<string, string> parameters)
+	public void Request(Dictionary<string, string> parameters)
+	{
+        StartCoroutine(DoRequest(parameters));
+	}
+
+    public IEnumerator DoRequest(Dictionary<string, string> parameters)
     {
         using (UnityWebRequest www = UnityWebRequest.Post(URL, parameters))
         {
