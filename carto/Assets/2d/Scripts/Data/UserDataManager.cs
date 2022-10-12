@@ -2,8 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// User Data
-public class UserDataManager : Singleton<GameDataManager>
+/// <summary>
+/// User Data 관리 클래스
+/// </summary>
+public class UserDataManager : Singleton<UserDataManager>
 {
+    // User Data
+    UserData userData;
+
+    // Save
+    public void Save()
+    {
+
+    }
+
+    // Load
+    public void Load() 
+    {
+        
+    }
 
 }

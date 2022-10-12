@@ -10,6 +10,17 @@ public class Card : MonoBehaviour, IPointerClickHandler
 
     void Start() 
     {
+        
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        ClickCard();
+    }
+
+    void ClickCard()
+    {
+
         Dictionary<string, string> parameters = new Dictionary<string, string>();
         
         string serviceId = "battle.stage";
@@ -22,17 +33,6 @@ public class Card : MonoBehaviour, IPointerClickHandler
 
 
         StartCoroutine(GWSClient.Instance.Request(parameters));
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        ClickCard();
-    }
-
-    void ClickCard()
-    {
-
-        
         Debug.Log("click");
     }
     
