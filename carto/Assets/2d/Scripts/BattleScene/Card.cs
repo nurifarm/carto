@@ -18,6 +18,11 @@ public class Card : MonoBehaviour, IPointerClickHandler
         ClickCard();
     }
 
+    void RequestCompleted(ClientOutput clientOutput)
+    {
+        // TODO
+    }
+
     void ClickCard()
     {
 
@@ -32,8 +37,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
         parameters.Add("stageNo", stageNo);
 
 
-        GWSClient.Instance.Request(parameters);
-        Debug.Log("click");
+        GWSClient.Instance.Request(parameters, RequestCompleted);
     }
     
 }
