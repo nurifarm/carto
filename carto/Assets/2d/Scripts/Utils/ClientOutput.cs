@@ -16,7 +16,7 @@ public class ClientOutput
         get; set;
     }
 
-    public List<Dictionary<string, object>> rs {
+    public object rs {
         get; set;
     }
 }

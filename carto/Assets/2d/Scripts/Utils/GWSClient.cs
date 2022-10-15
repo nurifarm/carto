@@ -35,13 +35,11 @@ public class GWSClient : UniSingleton<GWSClient>
 
             if (www.result != UnityWebRequest.Result.Success)
             {
-                Debug.Log("error");
                 clientOutput.message = www.error;
             }
             else
             {
-                Debug.Log("success");
-                Debug.Log(www.downloadHandler.text);
+                // Debug.Log(www.downloadHandler.text);
                 clientOutput = JsonConvert.DeserializeObject<ClientOutput>(www.downloadHandler.text);
                 
             }

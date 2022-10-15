@@ -21,23 +21,39 @@ public class Card : MonoBehaviour, IPointerClickHandler
     void RequestCompleted(ClientOutput clientOutput)
     {
         // TODO
+        if (clientOutput.message != null) {
+			var message = clientOutput.message;
+			
+			if (message == "OK")
+            {
+				Debug.Log("Success");
+			} else
+			{
+				Debug.Log(message);
+			}
+		}
     }
 
     void ClickCard()
     {
+        Dictionary<string, string> parameters = new Dictionary<string, string>()
+        {
+            {"serviceId", "gws.auth"},
+            {"commandId", "doLogin"},
+            {"userId", "admin"},
+            {"password", "1234"}
+        };
 
-        Dictionary<string, string> parameters = new Dictionary<string, string>();
-        
-        string serviceId = "battle.stage";
-        string commandId = "retrieveDetailList";
-        string stageNo = "1";
-
-        parameters.Add("serviceId", serviceId);
-        parameters.Add("commandId", commandId);
-        parameters.Add("stageNo", stageNo);
-
+        Dictionary<string, string> parameters2 = new Dictionary<string, string>()
+        {
+            {"serviceId", "battle.stage"},
+            {"commandId", "retrieveDetailList"},
+            {"stageId", "0001"}
+        };
 
         GWSClient.Instance.Request(parameters, RequestCompleted);
+        GWSClient.Instance.Request(parameters2, RequestCompleted);
+
     }
     
 }
