@@ -39,7 +39,7 @@ public class GWSClient : UniSingleton<GWSClient>
             }
             else
             {
-                // Debug.Log(www.downloadHandler.text);
+                Debug.Log(www.downloadHandler.text);
                 clientOutput = JsonConvert.DeserializeObject<ClientOutput>(www.downloadHandler.text);
                 
             }
