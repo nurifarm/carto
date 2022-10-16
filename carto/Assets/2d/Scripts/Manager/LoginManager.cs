@@ -25,7 +25,7 @@ public class LoginManager : UniSingleton<LoginManager>
 			if (message == "OK")
             {
 				Debug.Log("Login Success");
-                // CSceneManager.Instance.Change("LoadingScene");
+                CSceneManager.Instance.LoadScene("MainScene");
 			} else
 			{
 				Debug.Log(message);
