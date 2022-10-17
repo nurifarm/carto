@@ -14,7 +14,7 @@ public class LoginScene : SceneBase
     public TMP_InputField password;
     public Button btn;
 
-
+	
     void Awake()
     {
         btn.onClick.AddListener(BtnClickHandler);
@@ -25,11 +25,13 @@ public class LoginScene : SceneBase
         LoginManager.Instance.Login(userId.text, password.text, OnCompleteLogin);
     }
 
-	void OnCompleteLogin(bool success)
+	async void OnCompleteLogin(bool success)
 	{
 		if(success) {
-			CSceneManager.Instance.LoadScene("MainScene");
- 		} else {
+			btn.interactable = false;
+			await CSceneManager.Instance.Change("MainScene");
+		}
+		else {
 			// fail popup
 		}
 

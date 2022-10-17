@@ -15,8 +15,8 @@ public class LoadingScene : SceneBase
     public async UniTaskVoid Load()
 	{
         // dummy loading..
-        await UniTask.Delay(4000);
+      //  await UniTask.Delay(4000);
         // Load Scene
-        await CSceneManager.Instance.Change();
+      //  await CSceneManager.Instance.Change();
 	}
 }
