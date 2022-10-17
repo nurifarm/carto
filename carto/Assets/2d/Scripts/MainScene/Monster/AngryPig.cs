@@ -15,7 +15,7 @@ public class AngryPig : MonoBehaviour
 
     private Vector3 initialPos;
 
-    private Action action = Action.IDLE;
+    private State state = State.IDLE;
     private bool isInAction = false;
 
     private float maxRange = 4.0f;
@@ -58,28 +58,28 @@ public class AngryPig : MonoBehaviour
         
         if (!isInAction)
         {
-            CheckAction();
+            CheckState();
         
-            switch (action)
+            switch (state)
             {
-                case Action.MOVE2ORIGIN:
+                case State.MOVE2ORIGIN:
                     anim.SetBool("isMoving", true);
                     sr.flipX = (transform.position - initialPos).x <= 0;
                     transform.position = Vector2.MoveTowards(transform.position, initialPos, moveSpeed * Time.fixedDeltaTime);
                     break;
 
-                case Action.MOVE2TARGET:
+                case State.MOVE2TARGET:
                     anim.SetBool("isMoving", true);
                     sr.flipX = (transform.position - target.position).x <= 0;
                     transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.fixedDeltaTime);
                     break;
 
-                // case Action.ATTACK:
+                // case State.ATTACK:
                 //     anim.SetTrigger("isAttacking");
                 //     StartCoroutine(CheckAnimationState("Attack"));
                 //     break;
 
-                case Action.IDLE:
+                case State.IDLE:
                     anim.SetBool("isMoving", false);
                     sr.flipX = false;
                     break;
@@ -90,7 +90,7 @@ public class AngryPig : MonoBehaviour
         }
     }
 
-    void CheckAction()
+    void CheckState()
     {
         float orgin2target = Vector2.Distance(initialPos, target.position);
         float object2target = Vector2.Distance(transform.position, target.position);
@@ -99,21 +99,21 @@ public class AngryPig : MonoBehaviour
         {
             if (object2target <= attackRange)
             {
-                action = Action.ATTACK;
+                state = State.ATTACK;
                 return;
             }
 
-            action = Action.MOVE2TARGET;
+			state = State.MOVE2TARGET;
             return;
         }
         else if (transform.position != initialPos)
         {
-            action = Action.MOVE2ORIGIN;
+			state = State.MOVE2ORIGIN;
             return;
         }
         else
         {
-            action = Action.IDLE;
+            state = State.IDLE;
             return;
         }
 

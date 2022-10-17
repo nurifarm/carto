@@ -1,7 +1,7 @@
 // *****************************************************
-// * Action Enum class
+// * State Enum class
 // *****************************************************
-enum Action
+enum State
 {
     IDLE,
     MOVE2TARGET,
