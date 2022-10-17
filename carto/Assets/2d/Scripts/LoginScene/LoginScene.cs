@@ -22,6 +22,16 @@ public class LoginScene : SceneBase
 
     void BtnClickHandler()
     {
-        LoginManager.Instance.Login(userId.text, password.text);
+        LoginManager.Instance.Login(userId.text, password.text, OnCompleteLogin);
     }
+
+	void OnCompleteLogin(bool success)
+	{
+		if(success) {
+			CSceneManager.Instance.LoadScene("MainScene");
+ 		} else {
+			// fail popup
+		}
+
+	}
 }
