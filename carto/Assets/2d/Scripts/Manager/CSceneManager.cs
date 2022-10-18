@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cysharp.Threading.Tasks;
+using System.Threading.Tasks;
+
 
 class CSceneManager : UniSingleton<CSceneManager>
 {
@@ -18,13 +20,14 @@ class CSceneManager : UniSingleton<CSceneManager>
 		// ------------------------------------------------------------
 		await SceneManager.LoadSceneAsync("LoadingScene");
 		// ------------------------------------------------------------
+		// Load data(excute Action method)
+		// ------------------------------------------------------------
+		if (!GameDataManager.Instance.isLoadedData())
+			await GameDataManager.Instance.Load(); 
+		// ------------------------------------------------------------
 		// dummy time
 		// ------------------------------------------------------------
 		await UniTask.Delay(2000);
-		// ------------------------------------------------------------
-		// Load data(excute Action method)
-		// ------------------------------------------------------------
-		//  
 		// ------------------------------------------------------------
 		// Load Scene
 		// ------------------------------------------------------------

@@ -7,16 +7,5 @@ using Cysharp.Threading.Tasks;
 
 public class LoadingScene : SceneBase
 {
-    void Start()
-    {
-        Load().Forget();
-    }
 
-    public async UniTaskVoid Load()
-	{
-        // dummy loading..
-      //  await UniTask.Delay(4000);
-        // Load Scene
-      //  await CSceneManager.Instance.Change();
-	}
 }
