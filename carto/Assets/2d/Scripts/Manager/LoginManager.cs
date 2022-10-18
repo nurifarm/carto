@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class LoginManager : UniSingleton<LoginManager>
 {
@@ -9,44 +10,68 @@ public class LoginManager : UniSingleton<LoginManager>
 
     public void Login(string userId, string password, System.Action<bool> callback = null)
     {
-		if (isBusy)
+		// ------------------------------------------------------------
+		// check for already processing
+		// ------------------------------------------------------------
+		if (!isBusy)
+		{
+			// ------------------------------------------------------------
+			// check for required parameters
+			// ------------------------------------------------------------
+			if (userId != null && password != null)
+			{
+				isBusy = true;
+				loginCallback = callback;
+
+				// ------------------------------------------------------------
+				// make parameters
+				// ------------------------------------------------------------
+				Dictionary<string, string> parameters = new Dictionary<string, string>()
+				{
+					{"serviceId", "gws.auth"},
+					{"commandId", "doLogin"},
+					{"userId", userId},
+					{"password", password}
+				};
+
+				// ------------------------------------------------------------
+				// excute request
+				// ------------------------------------------------------------
+				GWSClient.Instance.Request(parameters, RequestCompleted);	
+			}
+			else
+			{
+				callback?.Invoke(false);
+				Debug.Log("필수 파라미터 항목이 누락되었습니다.");
+				return;
+			}
+		}
+		else
 		{
 			callback?.Invoke(false);
+			Debug.Log("이미 처리 중 입니다.");
 			return;
 		}
-
-		loginCallback = callback;
-
-
-		Dictionary<string, string> parameters = new Dictionary<string, string>()
-        {
-            {"serviceId", "gws.auth"},
-            {"commandId", "doLogin"},
-            {"userId", userId},
-            {"password", password}
-        };
-		isBusy = true;
-
-        GWSClient.Instance.Request(parameters, RequestCompleted);
     }
 
     public void RequestCompleted(ClientOutput clientOutput)
     {
-        if (clientOutput.message != null) {
+        if (clientOutput != null) {
 			var message = clientOutput.message;
-
-			bool success = message == "OK";
-			loginCallback?.Invoke(success);
 
 			if (message == "OK")
             {
-				Debug.Log("Login Success");
-			} else
+				loginCallback?.Invoke(true);
+			} 
+			else
 			{
-				Debug.Log(message);
+				Debug.Log("로그인에 실패하였습니다.: " + message);
 			}
-		} else {
+		} 
+		else 
+		{
 			loginCallback?.Invoke(false);
+			Debug.Log("로그인에 실패하였습니다.: clientOutput is null");
 		}
 
 		loginCallback = null;

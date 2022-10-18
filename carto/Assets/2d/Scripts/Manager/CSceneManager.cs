@@ -13,11 +13,21 @@ class CSceneManager : UniSingleton<CSceneManager>
 		{
 			CurrentScene.Exit();
 		}
-
+		// ------------------------------------------------------------
+		// LoadingScene
+		// ------------------------------------------------------------
 		await SceneManager.LoadSceneAsync("LoadingScene");
-
+		// ------------------------------------------------------------
+		// dummy time
+		// ------------------------------------------------------------
 		await UniTask.Delay(2000);
-
+		// ------------------------------------------------------------
+		// Load data(excute Action method)
+		// ------------------------------------------------------------
+		//  
+		// ------------------------------------------------------------
+		// Load Scene
+		// ------------------------------------------------------------
 		await SceneManager.LoadSceneAsync(sceneName);
 
 		var sceneObject = GameObject.FindGameObjectWithTag("Scene");

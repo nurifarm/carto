@@ -47,5 +47,7 @@ public class GWSClient : UniSingleton<GWSClient>
             callback(clientOutput);
         }
         
+        
+        
     }
 }
