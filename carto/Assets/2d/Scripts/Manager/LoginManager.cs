@@ -2,82 +2,58 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
+
 
 public class LoginManager : UniSingleton<LoginManager>
 {
 	private bool isBusy = false;
-	private System.Action<bool> loginCallback;
 
-    public void Login(string userId, string password, System.Action<bool> callback = null)
+    public async UniTask Login(string userId, string password)
     {
 		// ------------------------------------------------------------
 		// check for already processing
 		// ------------------------------------------------------------
 		if (!isBusy)
 		{
-			// ------------------------------------------------------------
-			// check for required parameters
-			// ------------------------------------------------------------
-			if (userId != null && password != null)
-			{
-				isBusy = true;
-				loginCallback = callback;
+			isBusy = true;
 
-				// ------------------------------------------------------------
-				// make parameters
-				// ------------------------------------------------------------
-				Dictionary<string, string> parameters = new Dictionary<string, string>()
-				{
-					{"serviceId", "gws.auth"},
-					{"commandId", "doLogin"},
-					{"userId", userId},
-					{"password", password}
-				};
-
-				// ------------------------------------------------------------
-				// excute request
-				// ------------------------------------------------------------
-				GWSClient.Instance.Request(parameters, RequestCompleted);	
-			}
-			else
+			// ------------------------------------------------------------
+			// make parameters
+			// ------------------------------------------------------------
+			Dictionary<string, string> parameters = new Dictionary<string, string>()
 			{
-				callback?.Invoke(false);
-				Debug.Log("필수 파라미터 항목이 누락되었습니다.");
-				return;
+				{"serviceId", "gws.auth"},
+				{"commandId", "doLogin"},
+				{"userId", userId},
+				{"password", password}
+			};
+
+			// ------------------------------------------------------------
+			// excute request
+			// ------------------------------------------------------------
+			ClientOutput clientOutput = await GWSClient.Request<ClientOutput>(parameters);
+
+			if (clientOutput.message == "OK")
+			{
+				await CSceneManager.Instance.Change("MainScene");
 			}
+			else 
+			{
+				// TODO : 실패 팝업
+				Debug.LogError("error: " + clientOutput.message);
+			}
+
+			isBusy = false;
 		}
 		else
 		{
-			callback?.Invoke(false);
 			Debug.Log("이미 처리 중 입니다.");
-			return;
 		}
+
     }
 
-    public void RequestCompleted(ClientOutput clientOutput)
-    {
-        if (clientOutput != null) {
-			var message = clientOutput.message;
 
-			if (message == "OK")
-            {
-				loginCallback?.Invoke(true);
-			} 
-			else
-			{
-				Debug.Log("로그인에 실패하였습니다.: " + message);
-			}
-		} 
-		else 
-		{
-			loginCallback?.Invoke(false);
-			Debug.Log("로그인에 실패하였습니다.: clientOutput is null");
-		}
-
-		loginCallback = null;
-		isBusy = false;
-
-	}
-
-
+	
 }

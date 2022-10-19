@@ -19,4 +19,9 @@ public class ClientOutput
     public object rs {
         get; set;
     }
+
+    public void setErrorMessage(string errorMessage)
+    {
+        this.message = errorMessage;
+    }
 }

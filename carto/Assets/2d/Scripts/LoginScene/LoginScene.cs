@@ -7,6 +7,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
+using Cysharp.Threading.Tasks;
+
 
 public class LoginScene : SceneBase
 {
@@ -14,26 +16,16 @@ public class LoginScene : SceneBase
     public TMP_InputField password;
     public Button btn;
 
-	
     void Awake()
     {
         btn.onClick.AddListener(BtnClickHandler);
     }
 
-    void BtnClickHandler()
+    async void BtnClickHandler()
     {
-        LoginManager.Instance.Login(userId.text, password.text, OnCompleteLogin);
+        btn.interactable = false;
+        await LoginManager.Instance.Login(userId.text, password.text);
+        btn.interactable = true;
     }
 
-	async void OnCompleteLogin(bool success)
-	{
-		if(success) {
-			btn.interactable = false;
-			await CSceneManager.Instance.Change("MainScene");
-		}
-		else {
-			// fail popup
-		}
-
-	}
 }

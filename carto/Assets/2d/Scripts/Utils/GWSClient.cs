@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
+using Cysharp.Threading.Tasks;
 
 /// <summary>
 /// GameWebServer 통신 클래스
 /// </summary>
-public class GWSClient : UniSingleton<GWSClient>
+public class GWSClient
 {
     // 개발 서버
     static string URL = "http://183.91.201.152:8088/app/1.0/service/ajax";
@@ -19,35 +20,23 @@ public class GWSClient : UniSingleton<GWSClient>
     /// <param name="callback">콜백 함수</param>
     /// GWSClient.Instance.Request(parameters, RequestCompleted);
     /// </summary>
-	public void Request(Dictionary<string, string> parameters, Action<ClientOutput> callback)
+	public static async UniTask<T> Request<T>(Dictionary<string, string> parameters)
 	{
-        StartCoroutine(DoRequest(parameters, callback));
-	}
-
-    public IEnumerator DoRequest(Dictionary<string, string> parameters, Action<ClientOutput> callback)
-    {
-
-        using (UnityWebRequest www = UnityWebRequest.Post(URL, parameters))
+        using (UnityWebRequest request = UnityWebRequest.Post(URL, parameters))
         {
-            yield return www.SendWebRequest();
-            
-            ClientOutput clientOutput = new ClientOutput();
+            try 
+            {
+                var res = await request.SendWebRequest();
+                T result = JsonConvert.DeserializeObject<T>(res.downloadHandler.text);
 
-            if (www.result != UnityWebRequest.Result.Success)
-            {
-                clientOutput.message = www.error;
+                return result;
             }
-            else
+            catch(Exception e)
             {
-                Debug.Log(www.downloadHandler.text);
-                clientOutput = JsonConvert.DeserializeObject<ClientOutput>(www.downloadHandler.text);
-                
+                // TODO : 실패 팝업
+                Debug.LogError("error: " + e.Message);
+                return default;
             }
-            
-            callback(clientOutput);
         }
-        
-        
-        
-    }
+	}
 }
