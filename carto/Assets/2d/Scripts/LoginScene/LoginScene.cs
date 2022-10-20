@@ -23,9 +23,17 @@ public class LoginScene : SceneBase
 
     async void BtnClickHandler()
     {
-        btn.interactable = false;
-        await LoginManager.Instance.Login(userId.text, password.text);
-        btn.interactable = true;
+        ClientOutput clientOutput = await LoginManager.Instance.Login(userId.text, password.text);
+        
+        if (clientOutput.message == "OK")
+        {
+            await CSceneManager.Instance.Change("MainScene");
+        }
+        else 
+        {
+            // TODO : 실패 팝업
+            Debug.LogError("error: " + clientOutput.message);
+        }
     }
 
 }

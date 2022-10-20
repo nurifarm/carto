@@ -10,7 +10,7 @@ public class LoginManager : UniSingleton<LoginManager>
 {
 	private bool isBusy = false;
 
-    public async UniTask Login(string userId, string password)
+    public async UniTask<ClientOutput> Login(string userId, string password)
     {
 		// ------------------------------------------------------------
 		// check for already processing
@@ -34,22 +34,14 @@ public class LoginManager : UniSingleton<LoginManager>
 			// excute request
 			// ------------------------------------------------------------
 			ClientOutput clientOutput = await GWSClient.Request<ClientOutput>(parameters);
-
-			if (clientOutput.message == "OK")
-			{
-				await CSceneManager.Instance.Change("MainScene");
-			}
-			else 
-			{
-				// TODO : 실패 팝업
-				Debug.LogError("error: " + clientOutput.message);
-			}
-
 			isBusy = false;
+			
+			return clientOutput;
 		}
 		else
 		{
 			Debug.Log("이미 처리 중 입니다.");
+			return default;
 		}
 
     }

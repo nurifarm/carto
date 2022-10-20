@@ -17,8 +17,7 @@ public class GWSClient
 
     /// <summary>
     /// <param name="parameters">호출 서비스 및 넘겨줄 파라미터</param>
-    /// <param name="callback">콜백 함수</param>
-    /// GWSClient.Instance.Request(parameters, RequestCompleted);
+    /// GWSClient.Instance.Request(parameters);
     /// </summary>
 	public static async UniTask<T> Request<T>(Dictionary<string, string> parameters)
 	{
