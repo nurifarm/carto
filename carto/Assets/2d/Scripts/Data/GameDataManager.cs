@@ -29,12 +29,21 @@ public class GameDataManager : UniSingleton<GameDataManager>
     public async UniTask Load() 
     {
         await Task.Run(() => {
-            // User Data
-            Debug.Log("User Data");    
             // Monster Master Data
             Debug.Log("Monster Master Data");
             // Stage Master Data
             Debug.Log("Stage Master Data");
+        });
+        
+    }
+
+    public async UniTask LoadUserData(ClientOutput clientOutput)
+    {
+        await Task.Run(() => {
+            // User Data
+            Debug.Log("Load User Data");    
+            userData = (UserData)clientOutput.rs;
+            Debug.Log(userData);
         });
         
     }

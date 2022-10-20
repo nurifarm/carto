@@ -17,16 +17,16 @@ public class GWSClient
 
     /// <summary>
     /// <param name="parameters">호출 서비스 및 넘겨줄 파라미터</param>
-    /// GWSClient.Instance.Request(parameters);
+    /// GWSClient.Request<Client>(parameters);
     /// </summary>
-	public static async UniTask<T> Request<T>(Dictionary<string, string> parameters)
+	public static async UniTask<ClientOutput> Request(Dictionary<string, string> parameters)
 	{
         using (UnityWebRequest request = UnityWebRequest.Post(URL, parameters))
         {
             try 
             {
                 var res = await request.SendWebRequest();
-                T result = JsonConvert.DeserializeObject<T>(res.downloadHandler.text);
+                ClientOutput result = JsonConvert.DeserializeObject<ClientOutput>(res.downloadHandler.text);
 
                 return result;
             }

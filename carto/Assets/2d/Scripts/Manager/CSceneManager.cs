@@ -23,7 +23,8 @@ class CSceneManager : UniSingleton<CSceneManager>
 		// Load data(excute Action method)
 		// ------------------------------------------------------------
 		if (!GameDataManager.Instance.isLoadedData())
-			await GameDataManager.Instance.Load(); 
+			await GameDataManager.Instance.Load();
+		
 		// ------------------------------------------------------------
 		// dummy time
 		// ------------------------------------------------------------

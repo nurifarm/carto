@@ -33,9 +33,9 @@ public class LoginManager : UniSingleton<LoginManager>
 			// ------------------------------------------------------------
 			// excute request
 			// ------------------------------------------------------------
-			ClientOutput clientOutput = await GWSClient.Request<ClientOutput>(parameters);
+			ClientOutput clientOutput = await GWSClient.Request(parameters);
 			isBusy = false;
-			
+
 			return clientOutput;
 		}
 		else
