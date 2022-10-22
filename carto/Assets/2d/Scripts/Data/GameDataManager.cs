@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
-using Newtonsoft.Json;
 using System.Threading.Tasks;
 
 /// <summary>
@@ -44,7 +43,8 @@ public class GameDataManager : UniSingleton<GameDataManager>
             // User Data
             Debug.Log("Load User Data");
             string rs = clientOutput.rs.ToString();
-            userData = JsonConvert.DeserializeObject<UserData>(rs);
+            userData = Utils.JsonToObject<UserData>(rs);
+            Debug.Log(userData.userName);
         });
         
     }

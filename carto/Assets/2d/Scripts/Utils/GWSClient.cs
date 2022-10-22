@@ -26,7 +26,7 @@ public class GWSClient
             try 
             {
                 var res = await request.SendWebRequest();
-                ClientOutput result = JsonConvert.DeserializeObject<ClientOutput>(res.downloadHandler.text);
+                ClientOutput result = Utils.JsonToObject<ClientOutput>(res.downloadHandler.text);
 
                 return result;
             }
