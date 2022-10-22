@@ -27,7 +27,7 @@ public class LoginScene : SceneBase
         
         if (clientOutput.message == "OK")
         {
-            //await GameDataManager.Instance.LoadUserData(clientOutput);
+            await GameDataManager.Instance.LoadUserData(clientOutput);
             await CSceneManager.Instance.Change("MainScene");
         }
         else 

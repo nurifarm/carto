@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
+using Newtonsoft.Json;
 using System.Threading.Tasks;
 
 /// <summary>
@@ -41,9 +42,9 @@ public class GameDataManager : UniSingleton<GameDataManager>
     {
         await Task.Run(() => {
             // User Data
-            Debug.Log("Load User Data");    
-            userData = (UserData)clientOutput.rs;
-            Debug.Log(userData);
+            Debug.Log("Load User Data");
+            string rs = clientOutput.rs.ToString();
+            userData = JsonConvert.DeserializeObject<UserData>(rs);
         });
         
     }

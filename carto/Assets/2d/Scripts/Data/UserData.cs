@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class UserData
 {
-    string userId;
-    string userName;
+    public string userId;
+    public string userName;
 }
