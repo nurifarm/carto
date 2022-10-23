@@ -37,6 +37,18 @@ public class GameDataManager : UniSingleton<GameDataManager>
         
     }
 
+
+    // User Data Save
+    public async UniTask SaveUserData()
+    {
+        await Task.Run(() => {
+            // User Data
+            Debug.Log("Save User Data");
+
+        });
+    }
+
+    // User Data Load
     public async UniTask LoadUserData(ClientOutput clientOutput)
     {
         await Task.Run(() => {
@@ -57,5 +69,6 @@ public class GameDataManager : UniSingleton<GameDataManager>
         
         return true;
     }
+    
 
 }
